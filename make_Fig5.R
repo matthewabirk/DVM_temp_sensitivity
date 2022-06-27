@@ -1,4 +1,4 @@
-source('/Users/matthewbirk/Documents/Career/Writing/Manuscripts_in_prep/Dosidicus/final_scripts/import_d_roi.R')
+source('Make d_roi.R')
 
 # Add physiology data -----------------------------------------------------
 
@@ -180,6 +180,7 @@ pan_b = ggplot() +
 	geom_line(data = d_surface, aes(lat, FAS_byPcSMR, linetype = !trust), lwd = 0.75) +
 	geom_line(data = d_cmip, aes(lat, FAS_byPcSMR, color = model, linetype = !trust), lwd = 0.75) +
 	theme_bw() +
+	scale_color_manual(values = c('#D81B60', '#2DC92F', '#1E88E5')) +
 	scale_linetype_discrete(guide = 'none')
 
 
