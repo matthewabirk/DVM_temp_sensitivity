@@ -6,4 +6,5 @@ apply(tmp, 1, function(i){
 	species <<- i['Var1']
 	E_MMR <<- as.numeric(i['Var2'])
 	source('all_species.R')
+	ggsave(paste0('FAS_plots/', species, '_E=', E_MMR,'.pdf'), width = 4.25, height = 2.5)
 })

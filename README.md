@@ -26,4 +26,4 @@ To generate figures S4 and S5:
 	Run "simulations.R"
 	
 To generate figure S6:
-	Run "all_species.R"
+	Run "make_suppl_FAS_plots.R"

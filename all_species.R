@@ -1,4 +1,6 @@
-source('Make d_roi.R')
+d_roi = readRDS('WOA/d_roi.rds')
+
+# ALTERNATIVELY: source('Make d_roi.R')
 
 # Add physiology data -----------------------------------------------------
 

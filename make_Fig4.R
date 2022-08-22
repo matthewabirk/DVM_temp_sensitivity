@@ -1,5 +1,7 @@
 source('Make d_roi.R')
 
+# ALTERNATIVELY: d_roi = readRDS('WOA/d_roi.rds')
+
 # Add physiology data -----------------------------------------------------
 
 dg = data.frame(
