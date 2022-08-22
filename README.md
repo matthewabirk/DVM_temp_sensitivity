@@ -1,3 +1,5 @@
+This repository contains code related to Seibel and Birk 2022.
+
 Required R packages:
 	birk
 	cowplot
